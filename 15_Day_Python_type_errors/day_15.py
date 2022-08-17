@@ -226,28 +226,23 @@ ImportError: cannot import name 'power' from 'math'
 >>> pow(2,3)
 8.0
 >>>'''
-```
 
 ### ValueError
 
-```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
+'''karma@ajay:~$ python
+Python 3.9.6 (default, Aug 15 2022, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>> int('12a')
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 ValueError: invalid literal for int() with base 10: '12a'
->>>
-```
-
-In this case we cannot change the given string to a number, because of the 'a' letter in it.
+>>>'''
+# In this case we cannot change the given string to a number, because of the 'a' letter in it.
 
 ### ZeroDivisionError
 
-```py
-asabeneh@Asabeneh:~$ python
+'''karma@ajay:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -255,20 +250,5 @@ Type "help", "copyright", "credits" or "license" for more information.
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 ZeroDivisionError: division by zero
->>>
-```
-
-We cannot divide a number by zero.
-
-We have covered some of the python error types, if you want to check more about it check the python documentation about python error types.
-If you are good at reading the error types then you will be able to fix your bugs fast and you will also become a better programmer.
-
-🌕 You are excelling. You made it to half way to your way to greatness. Now do some exercises for your brain and for your muscle.
-
-## 💻 Exercises: Day 15
-
-1. Open you python interactive shell and try all the examples covered in this section.
-
-🎉 CONGRATULATIONS ! 🎉
-
-[<< Day 14](../14_Day_Higher_order_functions/14_higher_order_functions.md) | [Day 16 >>](../16_Day_Python_date_time/16_python_datetime.md)
+>>>'''
+# We cannot divide a number by zero.
